@@ -50,14 +50,6 @@ public class ValidaLoginServlet extends HttpServlet {
 		} else{
 			response.sendRedirect("index.html");
 		}
-		
-		/*
-		response.setContentType("text/html");
-		PrintWriter out = response.getWriter();
-		out.println("<html><body>");
-		out.println("<h1>Login:"+login+"</h1>");
-		out.println("<h1>Senha:"+senha+"</h1>");
-		out.println("</html></body>");*/
 	}
 
 	/**
